@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="@color/white"
     tools:context=".presentation.ui.PostDetailsFragment">
 
     <ScrollView
@@ -19,7 +20,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -58,7 +60,8 @@
                 android:text="Post Body"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:lineSpacingExtra="4dp"/>
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="12dp"/>
 
         </LinearLayout>
     </ScrollView>
